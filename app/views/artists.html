@@ -1,0 +1,13 @@
+<h3>Imaginary Records Artists</h3>
+
+<ul class="media-list">
+	<li class="media" ng-repeat="artist in artists">
+		<span class="pull-left" href="#">
+      		<img ng-cloak class="media-object" height="200" width="200" src="{{artist.imageUrl}}">
+    	</span>
+		<div class="media-body">
+			<h4 class="media-heading">{{artist.name}}</h4>
+			{{artist.description}}
+		</div>
+	</li>
+</ul>
