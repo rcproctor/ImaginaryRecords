@@ -12,6 +12,18 @@ Before the application can be run locally, the following steps are required:
 
 It's also a good idea to take a look at both of the [Yeoman] [2], [Karma] [6] web pages to get familiar with the core concepts.
 
+Once these items are installed, and the source code has been cloned, change to the ImaginaryRecords directory and run: <code>npm install</code>
+
+followed by:
+
+<code>bower install</code>
+
+Once this is done, you should be able to run the application locally using:
+
+<code>grunt server</code>
+
+while in the ImaginaryRecords directory.
+
 Scaffolding
 -----------
 The application uses [Yeoman] [2] to scaffold an [AngularJS] [3] application. The scaffolding component of [Yeoman] [2] is known as [Yo] [12], and it leverages a concept known as [generators] [9], or project templates. One of the out-of-the box generators is [generator-angular] [10], which will scaffold out a new AngularJS application. This sample application was generated using the [generator-angular] [10] template. Each of the pages in the app were generated using:
